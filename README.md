@@ -10,11 +10,14 @@
 #上线状态
 
 已经上线
+<br>
 两个页面
+<br>
 匹配面板：https://web.battenmufang.xyz/#/
 健康面板：https://web.battenmufang.xyz/#/pages/jk
+<br>
 欢迎访问
-<text color="#000000">打我网站的NMSL<text>
+<text color="#FFFFFF">打我网站的NMSL<text>
 
 #
 本项目自继承uView，使用开源MIT协议
