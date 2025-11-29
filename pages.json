@@ -7,14 +7,20 @@
 	// 		"query": "" //启动参数，在页面的onLoad函数里面得到
 	// 	}]
 	// },
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		{
-			"path": "pages/zt",
-			"style": {
-				"navigationBarTitleText": "Power By Batten"
+	"pages": [
+			{
+				"path": "pages/zt",
+				"style": {
+					"navigationBarTitleText": "Power By Batten"
+				}
+			},
+			{
+				"path": "pages/jk",
+				"style": {
+					"navigationBarTitleText": "Power By Batten"
+				}
 			}
-		}
-	],
+		],
 	"subPackages": [{
 		"root": "pages/componentsA",
 		"pages": [
