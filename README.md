@@ -1,25 +1,6 @@
-<h3 align="center" style="margin: 30px 0 30px;font-weight: bold;font-size:40px;">基于 uView 2.0 开发的网站</h3>
-<h3 align="center">当前使用模块：uview-ui、qiun-data-charts</h3>
+# uni-app
+基于uni-app提供的vue环境，搭建的vue网页
 
-# 更多页面正在填充
+继承开源的uview，使用MIT开源协议
 
-## 说明
-
-来自2025/11/29的作业留档（分支日期错了，未修正）
-
-## 上线状态
-
-已经上线
-
-两个页面
-
-[匹配面板](https://web.battenmufang.xyz/#/)
-[健康面板](https://web.battenmufang.xyz/#/pages/jk)
-
-欢迎访问
-
-<text color="#FFFFFF">打我网站的NMSL<text>
-
-# 版权说明
-
-集成自uview2.0项目，使用MIT开源许可协议
+完工日期：待定？
