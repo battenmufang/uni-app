@@ -1,0 +1,10 @@
+/unpackage/dist/build/*
+/unpackage/dist/dev/*
+/unpackage/cache/*
+/unpackage/release/*
+/node_modules/*
+/.idea/*
+deploy.sh
+/.hbuilderx/
+/.vscode/
+deploy
