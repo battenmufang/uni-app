@@ -57,7 +57,7 @@
 				</view>
 			</view>
 		</view>
-		<slot name="error" v-bind:message="message">
+		<slot name="error">
 			<text
 				v-if="!!message && parentData.errorType === 'message'"
 				class="u-form-item__body__right__message"

@@ -86,15 +86,13 @@
 						<!-- #endif -->
 					</view>
 				</view>
-
+				
 			</template>
-
+			
 			<template v-if="isInCount">
 				<view
 				    v-if="$slots.default || $slots.$default"
 				    @tap="chooseFile"
-					class="u-upload__default-slot"
-					:class="[lists.length === 0 ? 'u-upload__default-slot--empty-list' : '']"
 				>
 					<slot />
 				</view>
@@ -526,12 +524,6 @@
 				font-size: $u-upload-message-font-size;
 				color: $u-upload-message-color;
 				margin-top: $u-upload-message-margin-top;
-			}
-		}
-
-		&__default-slot {
-			&--empty-list {
-				flex: 1;
 			}
 		}
 

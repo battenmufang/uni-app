@@ -9,9 +9,51 @@
 	// },
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/example/components",
+			"path": "pages/carinfo/login/login",
 			"style": {
-				"navigationBarTitleText": "uView UI"
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/carinfo/index/index",
+			"style": {
+				"navigationBarTitleText": "菜单"
+			}
+		},
+		{
+			"path": "pages/carinfo/item/jb",
+			"style": {
+				"navigationBarTitleText": "基本信息"
+			}
+		},
+		{
+			"path": "pages/carinfo/item/cs",
+			"style": {
+				"navigationBarTitleText": "车身信息"
+			}
+		},
+		{
+			"path": "pages/carinfo/item/ddj",
+			"style": {
+				"navigationBarTitleText": "电动机信息"
+			}
+		},
+		{
+			"path": "pages/carinfo/item/dp",
+			"style": {
+				"navigationBarTitleText": "地盘/转向信息"
+			}
+		},
+		{
+			"path": "pages/carinfo/item/dc",
+			"style": {
+				"navigationBarTitleText": "电池信息"
+			}
+		},
+		{
+			"path": "pages/carinfo/item/cl",
+			"style": {
+				"navigationBarTitleText": "车辆/制动信息"
 			}
 		}
 	],
@@ -425,6 +467,7 @@
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uView",
 		"navigationBarBackgroundColor": "#FFFFFF",
-		"backgroundColor": "#FFFFFF"
+		"backgroundColor": "#FFFFFF",
+		"navigationStyle": "custom"
 	}
 }

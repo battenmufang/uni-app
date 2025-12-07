@@ -1,14 +1,9 @@
 {
-	"name": "uview2.0",
 	"id": "uview-ui",
 	"scripts": {
-		"test": "eslint . --fix",
-		"deploy": "node deploy",
-		"preinstall": "npx only-allow pnpm"
+		"test": "eslint . --fix"
 	},
-	"dependencies": {
-		"anve-upload-upyun": "^1.0.8"
-	},
+	"dependencies": {},
 	"devDependencies": {
 		"eslint": "^8.2.0",
 		"eslint-config-airbnb": "^19.0.0"
